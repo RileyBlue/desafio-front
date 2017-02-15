@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Desafío Front</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+   <h1 class="title">Semana 3 - Día 3</h1> 
+  </header>
+	<section class="tags">
+		<article class="tag--single theme--white">
+      <h2 class="subtitle">Etiqueta &lt;hr&gt;</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Una línea divisora</strong></p>
+      <h4 class="code--title">Código</h4>
+      <code class="code--block center">
+        &lt;hr&gt;
+      </code>  
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container">
+        <hr>
+      </div>
+    </article>
+
+    <article class="tag--single theme--black">
+      <h2 class="subtitle">Etiqueta &lt;mark&gt;</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Para resaltar texto</strong></p>
+      <h4 class="code--title">Código</h4>
+      <code class="code--block theme-white center">
+        &lt;p&gt;<span class="text">This is my</span> &lt;mark&gt;<span class="text">Text and my resume.</span>&lt;/mark&gt;&lt;/p&gt;
+      </code>  
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container center">
+        <p>This is my <mark>Text and my resume.</mark></p>
+      </div>
+    </article>
+
+    <article class="tag--single theme--white">
+      <h2 class="subtitle">Etiqueta &lt;sup&gt; & &lt;sub&gt;</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Superíndices y Subíndices</strong></p>
+      <h4 class="code--title">Código</h4>
+      <code class="code--block center">
+        <span class="text">E = MC</span>&lt;sup&gt;<span class="text">2></span>&lt;/sup&gt; <span class="text"> Agua = H</span>&lt;sub&gt;<span class="text">2</span>&lt;/sub&gt;<span class="text">O</span>   
+      </code>  
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container center">
+        E = MC<sup>2</sup> Agua = H<sub>2</sub>O
+      </div>
+    </article>
+
+    <article class="tag--single theme--black">
+      <h2 class="subtitle">Conditional Comments</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Actualizar o informar sobre IE</strong></p>
+      <h4 class="code--title">Código</h4>
+      <code class="code--block theme-white theme--gray">
+        <p class="theme--gray">
+          &lt;!--[if lt IE 10]&gt;
+          &lt;p class="browserupgrade" &gt;You are using an &lt;strong&gt;outdated&lt;/strong> browser. Please &lt;a href="http://browsehappy.com/" &gt;upgrade your browser&lt;/a&gt; to improve your experience.
+          &lt;![endif]--&gt; &lt;/p&gt;
+        </p>
+      </code>  
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container center">
+        Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+      </div>
+    </article>
+
+    <article class="tag--single theme--white">
+      <h2 class="subtitle">Etiqueta &lt;thead&gt;, &lt;tfoot&gt; & &lt;tbody&gt;</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Organizar secciones en una tabla</strong></p>
+      <h4 class="code--title">Código</h4>
+      <pre>
+        <code class="code--block">
+          &lt;table&gt;
+            &lt;thead&gt;
+              &lt;tr&gt;
+                &lt;td&gt;<span class="text">Header 1</span>&lt;/td&gt;
+                &lt;td&gt;<span class="text">Header 2</span>&lt;/td&gt;
+                &lt;td&gt;<span class="text">Header 3</span>&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/thead&gt;
+              &lt;tfoot&gt;
+                &lt;tr&gt;
+                &lt;td&gt;<span class="text">Footer 1</span>&lt;/td&gt;
+                &lt;td&gt;<span class="text">Footer 2</span>&lt;/td&gt;
+                &lt;td&gt;<span class="text">Footer 3</span>&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tfoot&gt;
+            &lt;tbody&gt;
+              &lt;tr&gt;
+                &lt;td&gt;<span class="text">Cell 1</span>&lt;/td&gt;
+                &lt;td&gt;<span class="text">Cell 2</span>&lt;/td&gt;
+                &lt;td&gt;<span class="text">Cell 3</span>&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/tbody&gt;
+          &lt;/table&gt;
+        </code>  
+      </pre>
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container">
+        <table>
+            <thead>
+                <tr>
+                    <td>Header 1</td>
+                    <td>Header 2</td>
+                    <td>Header 3</td>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>Footer 1</td>
+                    <td>Footer 2</td>
+                    <td>Footer 3</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+                <!-- etc. -->
+            </tbody>
+        </table>
+      </div>
+    </article>
+
+    <article class="tag--single theme--black">
+      <h2 class="subtitle">Labels</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Etiquetas propias del formulario</strong></p>
+      <h4 class="code--title">Código</h4>
+      <pre>
+        <code class="code--block theme-white">
+          &lt;form action="script.php"&gt;
+            &lt;label <span class="attr">for</span><span class="text">=</span><span class="val">"yourName"</span><span class="text">Your Name</span>&lt;/label&gt;
+            &lt;input <span class="attr">name</span><span class="text">=</span><span class="val">"yourName"</span> <span class="attr">id</span><span class="text">=</span><span class="val">"yourName"</span>&gt;
+          &lt;/form&gt;
+        </code>  
+      </pre>
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container center">
+        <form action="script.php">
+          <label for="yourName">Your Name</label>
+          <input name="yourName" id="yourName">
+        </form>
+      </div>
+    </article>
+
+    <article class="tag--single theme--white">
+      <h2 class="subtitle">Etiqueta &lt;Fielset&gt; & &lt;Legend&gt;</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Agrupar campos en un Formulario</strong></p>
+      <h4 class="code--title">Código</h4>
+      <pre>
+        <code class="code--block">
+          &lt;form <span class="attr">action</span><span class="text">=</span><span class="val">"somescript.php"</span> &gt;
+            &lt;fieldset&gt;
+                &lt;legend&gt;<span class="text">Name</span>&lt;/legend&gt;
+                &lt;p&gt;<span class="text">First name</span>&lt;input <span class="attr">name</span><span class="text">=</span><span class="val">"firstName"</span>&gt;&lt;/p&gt;
+                &lt;p&gt;<span class="text">Last name</span>&lt;input <span class="attr">name</span><span class="text">=</span><span class="val">"lastName"</span>&gt;&lt;/p&gt;
+            &lt;/fieldset&gt;
+            &lt;fieldset&gt;
+                &lt;legend><span class="text">Address</span>&lt;/legend&gt;
+                &lt;p&gt;<span class="text">Address</span>&lt;textarea <span class="attr">name</span><span class="text">=</span><span class="val">"address"</span>&gt;&lt;/textarea&gt;&lt;/p&gt;
+                &lt;p&gt;<span class="text">Postal code</span>&lt;input <span class="attr">name</span><span class="text">=</span><span class="val">"postcode"</span>&gt;&lt;/p&gt;
+            &lt;/fieldset&gt;
+          &lt;/form&gt;
+        </code>  
+      </pre>
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container">
+        <form action="somescript.php" >
+          <fieldset>
+              <legend>Name</legend>
+              <p>First name <input name="firstName"></p>
+              <p>Last name <input name="lastName"></p>
+          </fieldset>
+          <fieldset>
+              <legend>Address</legend>
+              <p>Address <textarea name="address"></textarea></p>
+              <p>Postal code <input name="postcode"></p>
+          </fieldset>
+        </form>
+      </div>
+    </article>
+
+    <article class="tag--single theme--black">
+      <h2 class="subtitle">Options Groups</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Agrupar elementos en un Select</strong></p>
+      <h4 class="code--title">Código</h4>
+      <pre>
+        <code class="code--block theme-white">
+          &lt;select <span class="attr">name</span><span class="text">=</span><span class="val">"country"</span>&gt;
+            &lt;optgroup <span class="attr">label</span><span class="text">=</span><span class="val">"Africa"</span>&gt;
+              &lt;option <span class="attr">value</span><span class="text">=</span><span class="val">"gam"</span>&gt;<span class="text">Gambia</span>&lt;/option&gt;
+              &lt;option <span class="attr">value</span><span class="text">=</span><span class="val">"mad"</span>&gt;<span class="text">Madagascar</span>&lt;/option&gt;
+              &lt;option <span class="attr">value</span><span class="text">=</span><span class="val">"nam"</span>&gt;<span class="text">Namibia</span>&lt;/option&gt;
+            &lt;/optgroup&gt;
+            &lt;optgroup <span class="attr">label</span><span class="text">=</span><span class="val">"Europe"</span>&gt;
+              &lt;option <span class="attr">value</span><span class="text">=</span><span class="val">"fra"</span>&gt;<span class="text">France</span>&lt;/option&gt;
+              &lt;option <span class="attr">value</span><span class="text">=</span><span class="val">"rus"</span>&gt;<span class="text">Russia</span>&lt;/option&gt;
+              &lt;option <span class="attr">value</span><span class="text">=</span><span class="val">"uk"</span>&gt;<span class="text">UK</span>&lt;/option&gt;
+            &lt;/optgroup&gt;
+            &lt;optgroup <span class="attr">label</span><span class="text">=</span><span class="val">"North America"</span>&gt;
+              &lt;option <span class="attr">value</span><span class="text">=</span><span class="val">"can"</span>&gt;<span class="text">Canada</span>&lt;/option&gt;
+              &lt;option <span class="attr">value</span><span class="text">=</span><span class="val">"mex"</span>&gt;<span class="text">Mexico</span>&lt;/option&gt;
+              &lt;option <span class="attr">value</span><span class="text">=</span><span class="val">"usa"</span>&gt;<span class="text">USA</span>&lt;/option&gt;
+            &lt;/optgroup&gt;
+          &lt;/select&gt;
+        </code>  
+      </pre>
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container center">
+        <select name="country">
+          <optgroup label="Africa">
+            <option value="gam">Gambia</option>
+            <option value="mad">Madagascar</option>
+            <option value="nam">Namibia</option>
+          </optgroup>
+          <optgroup label="Europe">
+            <option value="fra">France</option>
+            <option value="rus">Russia</option>
+            <option value="uk">UK</option>
+          </optgroup>
+          <optgroup label="North America">
+            <option value="can">Canada</option>
+            <option value="mex">Mexico</option>
+            <option value="usa">USA</option>
+          </optgroup>
+        </select>
+      </div>
+    </article>
+
+    <article class="tag--single theme--white">
+      <h2 class="subtitle">Etiqueta &lt;Input &gt;: Additional Types</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Diferentes tipos de Input</strong></p>
+      <h4 class="code--title">Código</h4>
+      <pre>
+        <code class="code--block">
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">search"</span> <span class="attr">name</span><span class="text">=</span><span class="val">"search"</span>&gt;
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">tel</span> <span class="attr">name</span><span class="text">=</span><span class="val">"telephone_number"</span>&gt;
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">"url" </span><span class="attr">name</span><span class="text">=</span><span class="val">"web_address"</span>&gt;
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">email"</span><span class="attr">name</span><span class="text">=</span></span><span class="val">email_address"</span>&gt;
+        </code>  
+      </pre>
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container">
+        <input type="search" name="search">
+        <input type="tel" name="telephone_number">
+        <input type="url" name="web_address">
+        <input type="email" name="email_address">
+      </div>
+    </article>
+
+    <article class="tag--single theme--black">
+      <h2 class="subtitle">Etiqueta: Numbers & Ranges</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Cuadros de texto para seleccionar números rangos</strong></p>
+      <h4 class="code--title">Código</h4>
+      <pre>
+        <code class="code--block theme-white">
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">"number"</span> <span class="attr">name</span><span class="text">=</span><span class="val">"quantity"</span> <span class="attr">step</span><span class="text">=</span><span class="val">"2"</span> <span class="attr">min</span><span class="text">=</span><span class="val">"20"</span> <span class="attr">max</span><span class="text">=</span><span class="val">"30"</span>&gt;
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">range"</span> <span class="attr">name</span><span class="text">=</span><span class="val">"temperature"</span><span class="attr"> min</span><span class="text">=</span><span class="val">"15"</span> <span class="attr">max</span><span class="text">=</span><span class="val">"25"</span> 
+          <span class="attr">step</span><span class="text">=</span><span class="val">"0.5"</span> <span class="attr">value</span><span class="text">=</span><span class="val">"18.5"</span>&gt;
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">"datetime"</span>&gt;
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">"date"</span>&gt;
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">"month"</span>&gt;
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">"week"</span>&gt;
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">"time"</span>&gt;
+          &lt;input <span class="attr">type</span><span class="text">=</span><span class="val">"datetime-local"</span>&gt;
+        </code>  
+      </pre>
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container center">
+        <input type="number" name="quantity" step="2" min="20" max="30" value="20">
+        <input type="range" name="temperature" min="15" max="25" step="0.5" value="18.5">
+        <input type="datetime">
+        <input type="date">
+        <input type="month">
+        <input type="week">
+        <input type="time">
+        <input type="datetime-local">
+      </div>
+    </article>
+
+    <article class="tag--single theme--white">
+      <h2 class="subtitle">Etiqueta &lt;Input &gt;: Color</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Input para seleccionar colores</strong></p>
+      <h4 class="code--title">Código</h4>
+      <pre>
+        <code class="code--block">
+          &lt;input <span class="attr">name</span><span class="text">=</span><span class="val">"color"</span> <span class="attr">type</span><span class="text">=</span><span class="val">"color"</span> <span class="attr">value</span><span class="text">=</span><span class="val">#ff8800"</span>&gt;
+        </code>  
+      </pre>
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container">
+        <input name="color" type="color" value="#ff8800">
+      </div>
+    </article>
+
+    <article class="tag--single theme--black">
+      <h2 class="subtitle">Etiqueta: Vídeo & Audio</h2>
+      <p class="description">¿Qué es o para qué sirve? <strong>Audio y Vídeo</strong></p>
+      <h4 class="code--title">Código</h4>
+      <pre>
+        <code class="code--block theme-white">
+          &lt;video <span class="attr">src</span><span class="text">=</span><span class="val">"video/kitty.mp4"</span> <span class="attr">controls</span> &gt;&lt;/video&gt;
+
+          &lt;video <span class="attr">controls</span> &gt;
+            &lt;source <span class="attr">src</span><span class="text">=</span><span class="val">"video/kitty.mp4"</span> <span class="attr">type</span><span class="text">=</span><span class="val">"video/mp4"</span> 
+            <span class="attr">type</span><span class="text">=</span><span class="val">"video/mp4; codecs='avc1, mp4a'"</span> &gt;
+
+            &lt;source <span class="attr">src</span><span class="text">=</span><span class="val">"kitties.webm"</span> 
+            <span class="attr">type</span><span class="text">=</span><span class="val">"video/webm; codecs='vp8.0, vorbis'"</span> &gt;
+
+          &lt;/video&gt;
+
+          &lt;audio <span class="attr">src</span><span class="text">=</span><span class="val">"audio/violin.mp"</span> <span class="attr">controls</span> &gt;&lt;/audio&gt;
+
+        </code>  
+      </pre>
+      <h4 class="code--example__title">Ejemplo Visual</h4>
+      <div class="code--example__container center">
+        <video src="video/kitty.mp4" width="400" height="400" controls></video>
+        <video src="video/kitty.mp4" width="400" height="400" controls poster="http://www.imgion.com/images/02/Beautiful-innocent-kitty-sitting-in-style.jpg"></video>
+        <video controls width="400" height="400" >
+          <source src="video/kitty.mp4" type="video/mp4" type="video/mp4; codecs='avc1, mp4a'" >
+          <source src="kitties.webm" type="video/webm; codecs='vp8.0, vorbis'" >
+        </video>
+
+        <br>
+
+        <audio src="audio/violin.mp3" controls> Your stupid browser doesn't support HTML 5 audio. :v</audio>
+      </div>
+    </article>
+
+	</section>
+</body>
+</html>
