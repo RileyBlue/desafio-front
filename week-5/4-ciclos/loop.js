@@ -107,3 +107,52 @@ while(num < 150) {
   num--;
 }
 
+// For Loops
+// Another way of repeating code
+// for(init; condition; step [Increment]) {
+  //run some code
+// }
+
+// Printing numbers from 1-5 with a for loop
+for(var i = 0; i < 6; i++) {
+  console.log(i);
+}
+
+// Printing numbers from 1-5 with a for loop
+
+var count = 1;
+
+while(count < 6) {
+ console.log("count is: " + count);
+ count++;
+}
+
+// Printing each character in a string with a for loop
+var str = "hello";
+
+for(var i = 0; i < str.length; i++){
+  console.log(str[i]);
+}
+
+// And with a while loop
+
+var str = "hello";
+var count = 0;   
+ 
+while(count < str.length) {
+ console.log(str[count]);
+ count++;
+}
+
+// Exercise 1 
+for(var i = 0; i < 16; i+=8){
+  console.log(i);
+}
+
+// Exercise 2
+var str = "ahceclwlxo";
+
+for(var i = 1; i < str.length; i+=2){
+  console.log(str[i]);
+}
+

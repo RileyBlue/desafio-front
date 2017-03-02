@@ -31,9 +31,6 @@ while(counter <= 333){
 	counter+=1;
 }
 
-
-
-
 console.log("PRINTING ALL NUMBERS DIVISIBLE BY 5 AND 3 BETWEEN 5 AND 50");
 var counter = 5;
 
