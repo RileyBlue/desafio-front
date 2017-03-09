@@ -1,0 +1,11 @@
+.is-not-visible {
+	visibility: hidden;
+}
+
+.is-broken {
+	color: red;
+}
+
+.is-hidden {
+	display: none;
+}
